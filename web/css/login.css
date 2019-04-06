@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../image/background/user1.jpg") no-repeat center;
+    background-size: 105% 100%;
+}
+table {
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+.login{
+    width: 430px;
+    height: 330px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+    background: rgba(255,255,255,0.78);
+}
+.bk{
+    background: rgba(20,175,228,0.86);
+    height: 135px;
+    border-radius: 10px 10px 0 0;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    border-radius: 80px;
+    background: url("../image/head/user.jpg") center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+input{
+    width:175px ;
+    border-radius: 7px;
+    height: 27px;
+    outline: none;
+    font-weight: bolder;
+    border: grey 1px solid;
+    letter-spacing: 1px;
+    padding-left: 7px;
+}
+.submit{
+    position: relative;
+    top: -40px;
+    display: block;
+    margin: 5px auto;
+    border: brown 1px solid;
+    color: brown;
+    background: white;
+    cursor: pointer;
+    width: 85px;
+    height: 30px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="icon" type="image/x-ico" href="image/logo.ico" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="javascript/register.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="register">
+    <div id="title">用户注册</div>
+    <div class="line"></div>
+    <form action="php/register.php" method="post">
+        <div class="big">
+            <input type="text" name="id" autocomplete="off" placeholder="ID号"/>
+            <div class="prompt"></div>
+            <p></p>
+        </div>
+        <div class="big">
+            <input type="text" name="user" autocomplete="off" placeholder="用户名"/>
+            <div class="prompt"></div>
+            <p></p>
+        </div>
+        <div class="big">
+            <input type="password" name="password" autocomplete="off" placeholder="密码"/>
+            <p></p>
+        </div>
+        <div class="big">
+            <input type="password" name="re_password" autocomplete="off" placeholder="确认密码">
+            <p></p>
+        </div>
+        <input type="submit" id="submit" value="注册"/>
+    </form>
+</div>
+</body>
+</html>

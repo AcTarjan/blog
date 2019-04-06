@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background: url("../image/background/user1.jpg") center no-repeat;
+    background-size: 105% 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    height: 50px;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+}
+/*header部分*/
+header{
+    height: 50px;
+    display: block;
+    background: rgba(112,128,144,0.9);
+}
+.nav{
+    float: right;
+    display: inline-block;
+    height: 50px;
+}
+header ul li{
+    line-height: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
+#title{
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+    display: inline-block;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-left:20px;
+    line-height: 50px;
+}
+#show{
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    background: rgba(255,255,255,0.40);
+}
+table{
+    width: 100%;
+    margin: 0;
+}
+tbody{
+    width: 100%;
+}
+th{
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.d1{
+    width: 40%;
+    line-height: 35px;
+    text-align: center;
+}
+.d2{
+    width: 60%;
+    line-height: 35px;
+    text-align: center;
+}
+.to{
+    color: brown;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    display: block;
+}
+#sign{
+    float: right;
+    width: 80%;
+    padding-top: 250px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}

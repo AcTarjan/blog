@@ -1,0 +1,17 @@
+/*后台主界面*/
+#title{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#word{
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 华文楷体;
+    position: relative;
+    top: 200px;
+}

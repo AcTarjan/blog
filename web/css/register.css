@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../image/background/user1.jpg") no-repeat center;
+    background-size: 105% 100%;
+}
+#register{
+    position: relative;
+    top: 50px;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.68);
+    padding-bottom: 20px;
+}
+#title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+.line{
+    border-bottom: 1px solid grey;
+    width: 90%;
+    margin: 30px auto;
+}
+.big{
+    margin-bottom: 20px;
+}
+input{
+    display: inline-block;
+    margin-left:30%;
+    width:40%;
+    border-radius: 7px;
+    height: 27px;
+    outline: none;
+    font-weight: bolder;
+    border: grey 1px solid;
+    letter-spacing: 1px;
+    padding-left: 7px;
+}
+p{
+    visibility: hidden;
+    height: 20px;
+    margin-left: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: red;
+    font-size: 15px;
+}
+.prompt{
+    visibility: hidden;
+    height: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: grey;
+    font-size: 13px;
+}
+#submit{
+    display: block;
+    margin:50px auto;
+    border: brown 1px solid;
+    color: brown;
+    background: white;
+    cursor: pointer;
+    width: 85px;
+    height: 30px;
+}

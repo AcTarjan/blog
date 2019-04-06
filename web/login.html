@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css"/>
+    <title>登录界面</title>
+    <link rel="icon" href="image/logo.ico" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="javascript/login.js" type="text/javascript"></script>
+    <script language="javascript">
+        function check() {
+            var text1=document.getElementById("id").value;
+            var text2=document.getElementById("password").value;
+            if(text1.length>10||text1.length<=0)
+            {
+                alert("ID不能超过10个数字且不能为空");
+                return false;
+            }
+            else if(text2.length>20||text2.length<=5)
+            {
+                alert("密码不能少于5个字符且不能超过20个字符");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<div class="login">
+    <div class="bk"></div>
+    <div id="logo"></div>
+    <form method="post" action="php/login.php">
+        <table cellspacing="10px">
+            <tr>
+                <td><input type="text" placeholder="ID号" name="id" id="id" autocomplete="off"/></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="密码" name="password" id="password" autocomplete="off"/></td>
+            </tr>
+        </table>
+        <input type="submit" class="submit" value="登 录" onclick="return check();"/>
+    </form>
+</div>
+</body>
+</html>

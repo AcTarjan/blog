@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+table{
+    width: 100%;
+}
+thead{
+    text-align: center;
+}
+.d1{
+    margin-top: 30px;
+    height: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.tx{
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+#t1{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}

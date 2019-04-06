@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    color: rgb(200, 131, 38);
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../image/background/user1.jpg") no-repeat center;
+    background-size: 105% 100%;
+}
+iframe{
+    width: 85%;
+    height: 100%;
+    float: right;
+    border: 0;
+}
+/*左边部分*/
+.left{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: rgba(255,255,255,0.40);
+}
+#d0{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+#dd{
+    height: 50px;
+    line-height: 50px;
+}
+.d1,d2{
+    height: 50px;
+    line-height: 50px;
+}

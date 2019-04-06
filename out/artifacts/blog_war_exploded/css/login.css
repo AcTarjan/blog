@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+table {
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    margin: 200px auto;
+    background: cornsilk;
+}
+.bk{
+    background: deepskyblue;
+    height: 120px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background: url("../image/p1.jpg") center;
+    background-size: 250% 250%;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+input{
+    width:175px ;
+    border-radius: 7px;
+    height: 27px;
+    font-weight: bolder;
+    border-style: none;
+    letter-spacing: 1px;
+    padding-left: 7px;
+}
+.submit{
+    position: relative;
+    top: -40px;
+    display: block;
+    margin: 0 auto;
+    width: 85px;
+    height: 30px;
+}

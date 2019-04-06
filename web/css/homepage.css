@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background: url("../image/background/user1.jpg") center no-repeat fixed;
+    background-size: 105% 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    height: 50px;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+}
+table{
+    margin-top: 50px;
+    width: 100%;
+}
+td{
+    width: 33%;
+    line-height: 50px;
+    text-align: center;
+}
+/*left部分开始*/
+.left{
+    width: 22%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    background: rgba(255,255,255,0.40);
+}
+.bk{
+    background: grey;
+    height: 200px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background:center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+.information{
+    position: relative;
+    background: transparent;
+    top: -50px;
+}
+.nickname {
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.signature{
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 华文楷体;
+    text-align: center;
+}
+/*right部分开始*/
+.right{
+    float: right;
+    height: 100%;
+    background-color: rgba(255,255,255,0.1);
+    width: 78%;
+}
+/*right中的header部分开始*/
+header{
+    height: 50px;
+    background: rgba(112,128,144,0.9);
+    margin-bottom: 100px;
+}
+.nav{
+    float: right;
+    display: inline-block;
+    height: 50px;
+}
+header ul li{
+    line-height: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
+#clock{
+    float: left;
+    display: inline-block;
+    height: 50px;
+    margin-left: 15px;
+    line-height: 50px;
+}
+/*right中的内容部分开始*/
+.tx{
+    padding: 8px;
+    width: 90%;
+    min-height: 50px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.50);
+}
+.content{
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 华文楷体;
+}
+.time{
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}

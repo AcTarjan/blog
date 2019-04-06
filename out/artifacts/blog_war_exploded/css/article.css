@@ -1,0 +1,103 @@
+body,ul{
+    margin: 0;
+}
+table{
+    margin: 20px 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+td{
+    width: 33%;
+    line-height: 50px;
+    text-align: center;
+}
+/*header部分开始*/
+header{
+    height: 50px;
+    background: slategray;
+}
+#logo{
+    float: left;
+    display: inline-block;
+    height: 50px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+}
+.nav{
+    float: right;
+    display: inline-block;
+    height: 50px;
+}
+header ul li{
+    line-height: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    height: 50px;
+    display: inline-block;
+}
+/*left部分开始*/
+.left{
+    width: 22%;
+    height: 700px;
+    float: left;
+    background: antiquewhite;
+}
+.catalogue{
+    margin-top: 30px;
+}
+.catalogue div{
+    height: 30px;
+    background: beige;
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.catalogue a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 30px;
+    color: orange;
+}
+/*right部分开始*/
+.right{
+    float: right;
+    width: 78%;
+}
+.to_header{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 20px;
+    background: deepskyblue;
+}
+/*right中的content内容部分开始*/
+.content{
+    margin: 50px 5%;
+    height: 1000px;
+}
+#message{
+    width: 100%;
+    line-height: 50px;
+    border: antiquewhite solid 3px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    background: rgba(254,255,235,0.64);
+    margin-bottom: 15px;
+}
